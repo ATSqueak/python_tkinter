@@ -54,7 +54,9 @@ Userdropdown = OptionMenu(root, User, *UserOptions)
 UserLbl.place(x=20, y=100)
 Userdropdown.place(x=80, y=100)
 
-myFile = "C:\\directory”
+# On line 59, enter in the path of your file
+
+myFile = "C:\\directory\file.txt”
 
 list = []
 commandList = []
