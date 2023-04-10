@@ -13,7 +13,7 @@ from tkinter import *
 
 def UpdateOutput():
     Output.delete(1.0, END)
-    textOutput = "command.exe host port transfer \"ID=" + ID.get() + "|USER=" + user.get() + "|IG=" + IG.get() + "\""
+    textOutput = "command.exe host port transfer \"ID=" + ID.get() + "|USER=" + User.get() + "|IG=" + IG.get() + "\""
     Output.insert(END, textOutput)
 
 # Create object
